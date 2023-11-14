@@ -34,8 +34,10 @@ header img {
 }
 .h4 {
   text-align: center;
-  text-decoration: black;
-  
+
+}
+.h4 a{
+  color: black;
 }
 .video {
   justify-content: center;

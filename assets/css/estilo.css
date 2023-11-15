@@ -59,6 +59,12 @@ header img {
   font-weight: bold;
   line-height: 2;
 }
+  .parrafoquiro{
+    text-align: start;
+    font-weight: bold;
+    line-height: 2;
+  }
+
 .Sesionkinesio{
   margin: 0;
   border:2px solid;
@@ -82,3 +88,13 @@ header img {
   border: 2px solid;
   border-radius: 10px;
 }
+
+.videoquiropraxia{
+  justify-content: center;
+  width: 340px;
+  display: flex;
+  margin: 0 auto;
+  border: 20px solid white;
+  border-radius: 20px;
+}
+ 

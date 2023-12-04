@@ -12,78 +12,65 @@
     <link rel="stylesheet" href="./assets/css/estilo.css" />
   
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>LrKinesio</title>
     <header>
         <h1>Forma parte de nuestra comunidad </h1>
     </header>
-    <body class="body">
-        
-    
+    <body class="body2">  
     <main>
-    <form action="#">
-        <div>
-            <label for="name">Escribe tu nombre</label>
-            <input type="text" name="name">
-        </div>
-        <br> 
-        <div>
-            <label for="surname">Apellido</label>
-            <input type="text" name="surname">
-        </div>
-        <br>
-        <div>
-            <label for="email" name="email">Escribe tu mail*</label>
-            <input type="email" name="email" required>
-        </div>
-        <br>
-        
-        <div>
-            <label for="Pais">Elije tu pais</label>
-            <select name="pais" id="">
-                <option value="ar">Argentina</option>
-                <option value="uy">Uruguay</option>
-                <option value="cl">Chile</option>
-                <option value="pe">Peru</option>
-                </select>
-        </div>
-        <br>
-
-        <div>
-            <label for="sex">Genero</label>
-            <input type="radio" name="sex" value="muj"> Mujer
-            <input type="radio" name="sex" value="hom"> Hombre
-            <input type="radio" name="sex" value="nb"> No Binario
-
-        </div>
-        <br>
-        <div>
-            <label for="nac">Seleciona tu fecha de naciomiento</label>
-            <input type="date" name="nac">
-        </div>
-        <br>
-        <div>
-            <label for="comentario">Que actividad te gustaria realizar con nosotros</label>
-            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-        </div>
-        <br>
-        <div>
-            <label for="Terminos">Acepto Terminos</label>
-            <input type="checkbox" name="Terminos">
-        </div>
-        <br>
-        <div>
-            <input type="submit" value="Envidar Datos">
-            <input type="reset" value="Borrar Datos">
-        </div>
-        <br>
-    </form>
-</section>
+    <form class="row g-4">
+  <div class="col-md-4">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-4">
+    <label for="inputAddress" class="form-label">Direccion</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
+  </div>
+  <div class="col-4">
+    <label for="inputAddress2" class="form-label">Trabajo</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+  </div>
+  <div class="col-md-4">
+    <label for="inputCity" class="form-label">Cuidad</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Pais</label>
+    <select id="inputState" class="form-select">
+      <option selected></option>
+      <option>Argentina</option>
+      <option>Brasil</option>
+      <option>Uruguay</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputZip" class="form-label">Celular</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-4">
+    <button type="submit" class="btn btn-primary">Inscribirme</button>
+  </div>
+</form>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 <footer>
     <h3>¡Gracias por elegirnos!</h3>
-    <h3><a href="/pre entrega 1/index.html">Menu</a></h3>
+    <h4><a href="./index.html">Menu</a></h4>
 </footer>
 
 </body>

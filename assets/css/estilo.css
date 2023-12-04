@@ -1,6 +1,12 @@
 .body {
-  color: rgb(28, 28, 29);
+  color: rgb(15, 15, 15);
   background-color: rgb(95, 116, 201);
+  background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
+}
+.body2{
+  color: azure;
+  background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
+  align-items: center;
 }
 header img {
   width: 100%;
@@ -13,10 +19,22 @@ header img {
 }
 .consultorio {
   width: 150px;
-  /* margin-left: 200px; */
   height: 35vh;
-  
+  border-radius: 15px;
+  animation: rotar 5s linear infinite;
 }
+.consultorio:hover{
+  cursor:pointer;
+}
+@keyframes rotar{
+  from{
+  transform: rotateY(180deg);
+  }
+  to{
+    transform: rotateY(-180deg);
+  }
+}
+
 .container{
   border: 2px solid;
   background-color: white;
@@ -32,12 +50,17 @@ header img {
   text-align: center;
   text-decoration: underline;
 }
+h3{
+  text-align: center;
+}
 .h4 {
   text-align: center;
-
 }
-.h4 a{
-  color: black;
+h4 a{
+  color: white;
+}
+footer{
+  text-align: center;
 }
 .video {
   justify-content: center;

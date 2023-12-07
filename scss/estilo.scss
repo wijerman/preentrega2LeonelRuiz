@@ -1,0 +1,100 @@
+
+.bodys {
+    color: rgb(15, 15, 15);
+    background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
+    width: 100%;
+}
+header {
+    width: 100%;
+    }
+
+
+main{
+    .container {
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .consultorio {
+        width: 150px;
+        height: 35vh;
+        border-radius: 15px;
+        animation: rotar 5s linear infinite;
+    }
+
+    .consutorio:hover {
+        cursor: pointer;
+    }
+
+    @keyframes rotar {
+        from {
+            transform: rotateY(180deg);
+        }
+
+        to {
+            transform: rotateY(-180deg);
+        }
+
+    }
+
+    .parrafo {
+        text-align: center;
+        font-weight: bold;
+        line-height: 2;
+    }
+}
+
+
+
+div {
+    .Sesionkinesio {
+        margin: 0;
+        border: 2px solid;
+        border-radius: 10px;
+        background-color: white;
+        align-items: center; 
+    }
+            .Titulo {
+                text-decoration: underline;
+                background-color: white;
+                text-align: center;
+                border: 2px solid;
+                border-radius: 10px;
+                color: black;
+
+            }
+        }
+    
+div {
+    .videokinesio {
+        justify-content: center;
+        width: 250px;
+        display: flex;
+        margin: 0 auto;
+        border: 2px solid;
+        border-radius: 10px;
+        align-items: center;
+    }
+}
+
+footer {
+    .parrafofinal {
+        background-color: white;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 10px;
+    }
+
+    .h4 {
+        text-align: center;
+    }
+
+    .h4 a {
+        color: white
+    }
+}

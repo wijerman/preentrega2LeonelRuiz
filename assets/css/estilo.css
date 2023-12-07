@@ -1,123 +1,82 @@
-.body {
+@charset "UTF-8";
+.bodys {
   color: rgb(15, 15, 15);
-  background-color: rgb(95, 116, 201);
   background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
-}
-.body2{
-  color: azure;
-  background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
-  align-items: center;
-}
-header img {
   width: 100%;
 }
-.Logo1 {
-  width: 100px;
+
+header {
+  width: 100%;
 }
-.Logo2 {
-  width: 100px;
+
+main .container {
+  background-color: white;
+  border-radius: 10px;
 }
-.consultorio {
+main .h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+main .consultorio {
   width: 150px;
   height: 35vh;
   border-radius: 15px;
   animation: rotar 5s linear infinite;
 }
-.consultorio:hover{
-  cursor:pointer;
+main .consutorio:hover {
+  cursor: pointer;
 }
-@keyframes rotar{
-  from{
-  transform: rotateY(180deg);
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg);
   }
-  to{
+  to {
     transform: rotateY(-180deg);
   }
 }
-
-.container{
-  border: 2px solid;
-  background-color: white;
-  border-radius: 10px;
-}
-.h1 {
-  text-align: center;
-  text-decoration: underline;
-  
-}
-.h2 {
-  align-items: center;
-  text-align: center;
-  text-decoration: underline;
-}
-h3{
-  text-align: center;
-}
-.h4 {
-  text-align: center;
-}
-h4 a{
-  color: white;
-}
-footer{
-  text-align: center;
-}
-.video {
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 200px;
-  border-radius: 10px;
-}
-.estilopropio {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+main .parrafo {
   text-align: center;
   font-weight: bold;
   line-height: 2;
 }
 
-.parrafo {
-  text-align: center;
-  font-weight: bold;
-  line-height: 2;
-}
-  .parrafoquiro{
-    text-align: start;
-    font-weight: bold;
-    line-height: 2;
-  }
-
-.Sesionkinesio{
+div .Sesionkinesio {
   margin: 0;
-  border:2px solid;
+  border: 2px solid;
   border-radius: 10px;
   background-color: white;
   align-items: center;
-
 }
-.videokinesio{
+div .Titulo {
+  text-decoration: underline;
+  background-color: white;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+  color: black;
+}
+
+div .videokinesio {
   justify-content: center;
   width: 250px;
   display: flex;
   margin: 0 auto;
-  border:2px solid;
+  border: 2px solid;
   border-radius: 10px;
   align-items: center;
 }
-.parrafofinal{
+
+footer .parrafofinal {
   background-color: white;
   text-align: center;
   border: 2px solid;
   border-radius: 10px;
 }
-
-.videoquiropraxia{
-  justify-content: center;
-  width: 340px;
-  display: flex;
-  margin: 0 auto;
-  border: 20px solid white;
-  border-radius: 20px;
+footer .h4 {
+  text-align: center;
 }
- 
+footer .h4 a {
+  color: white;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,26 @@
+.consultorio {
+    width: 150px;
+    height: 35vh;
+    border-radius: 15px;
+    animation: rotar 5s linear infinite;
+}
+
+.consutorio:hover {
+    cursor: pointer;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform: rotateY(-180deg);
+    }
+
+}
+.parrafo {
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+}

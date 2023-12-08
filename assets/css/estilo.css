@@ -1,6 +1,18 @@
 @charset "UTF-8";
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .bodys {
   color: rgb(15, 15, 15);
+  background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
+  width: 100%;
+}
+
+.bodys2 {
+  color: white;
   background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
   width: 100%;
 }
@@ -72,11 +84,31 @@ footer .parrafofinal {
   border: 2px solid;
   border-radius: 10px;
 }
-footer .h4 {
+
+footer h3 {
+  text-align: center;
+  color: white;
+}
+footer h4 {
   text-align: center;
 }
 footer .h4 a {
   color: white;
+}
+
+.parrafoquiro {
+  text-align: start;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.videoquiropraxia {
+  justify-content: center;
+  width: 340px;
+  display: flex;
+  margin: 0 auto;
+  border: 20px solid white;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

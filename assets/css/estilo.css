@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   box-sizing: border-box;
@@ -6,14 +5,20 @@
 }
 
 .bodys {
-  color: rgb(15, 15, 15);
-  background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
+  color: #000;
+  background-color: rgb(28, 28, 194);
   width: 100%;
 }
 
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .bodys2 {
-  color: white;
-  background-image: url(/assets/images/Elegante\ y\ versátil\ presentación\ informe\ seo\ web\ azul.png);
+  color: #fcf6f6;
+  background-color: rgb(28, 28, 194);
   width: 100%;
 }
 
@@ -22,22 +27,25 @@ header {
 }
 
 main .container {
-  background-color: white;
+  background-color: #fcf6f6;
   border-radius: 10px;
 }
 main .h1 {
   text-align: center;
   text-decoration: underline;
 }
-main .consultorio {
+
+.consultorio {
   width: 150px;
   height: 35vh;
   border-radius: 15px;
   animation: rotar 5s linear infinite;
 }
-main .consutorio:hover {
+
+.consutorio:hover {
   cursor: pointer;
 }
+
 @keyframes rotar {
   from {
     transform: rotateY(180deg);
@@ -46,7 +54,7 @@ main .consutorio:hover {
     transform: rotateY(-180deg);
   }
 }
-main .parrafo {
+.parrafo {
   text-align: center;
   font-weight: bold;
   line-height: 2;
@@ -56,12 +64,12 @@ div .Sesionkinesio {
   margin: 0;
   border: 2px solid;
   border-radius: 10px;
-  background-color: white;
+  background-color: #fcf6f6;
   align-items: center;
 }
 div .Titulo {
   text-decoration: underline;
-  background-color: white;
+  background-color: #fcf6f6;
   text-align: center;
   border: 2px solid;
   border-radius: 10px;
@@ -78,24 +86,6 @@ div .videokinesio {
   align-items: center;
 }
 
-footer .parrafofinal {
-  background-color: white;
-  text-align: center;
-  border: 2px solid;
-  border-radius: 10px;
-}
-
-footer h3 {
-  text-align: center;
-  color: white;
-}
-footer h4 {
-  text-align: center;
-}
-footer .h4 a {
-  color: white;
-}
-
 .parrafoquiro {
   text-align: start;
   font-weight: bold;
@@ -107,8 +97,26 @@ footer .h4 a {
   width: 340px;
   display: flex;
   margin: 0 auto;
-  border: 20px solid white;
+  border: 20px solid #fcf6f6;
   border-radius: 20px;
+}
+
+footer .parrafofinal {
+  background-color: #fcf6f6;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+footer h3 {
+  text-align: center;
+  color: #fcf6f6;
+}
+footer h4 {
+  text-align: center;
+}
+footer .h4 a {
+  color: #fcf6f6;
 }
 
 /*# sourceMappingURL=estilo.css.map */

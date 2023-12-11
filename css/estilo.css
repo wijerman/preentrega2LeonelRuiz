@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.bodys {
+  color: #000;
+  background-color: rgb(28, 28, 194);
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.bodys2 {
+  color: #fcf6f6;
+  background-color: rgb(28, 28, 194);
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+main .container {
+  background-color: #fcf6f6;
+  border-radius: 10px;
+}
+main .h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.consultorio {
+  width: 150px;
+  height: 35vh;
+  border-radius: 15px;
+  animation: rotar 5s linear infinite;
+}
+
+.consutorio:hover {
+  cursor: pointer;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(-180deg);
+  }
+}
+.parrafo {
+  text-align: center;
+  font-weight: bold;
+  line-height: 2;
+}
+
+div .Sesionkinesio {
+  margin: 0;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: #fcf6f6;
+  align-items: center;
+}
+div .Titulo {
+  text-decoration: underline;
+  background-color: #fcf6f6;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+  color: black;
+}
+
+div .videokinesio {
+  justify-content: center;
+  width: 250px;
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.parrafoquiro {
+  text-align: start;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.videoquiropraxia {
+  justify-content: center;
+  width: 340px;
+  display: flex;
+  margin: 0 auto;
+  border: 20px solid #fcf6f6;
+  border-radius: 20px;
+}
+
+footer .parrafofinal {
+  background-color: #fcf6f6;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+footer h3 {
+  text-align: center;
+  color: #fcf6f6;
+}
+footer h4 {
+  text-align: center;
+}
+footer .h4 a {
+  color: #fcf6f6;
+}
+
+/*# sourceMappingURL=estilo.css.map */

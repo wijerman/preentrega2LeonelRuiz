@@ -9,7 +9,16 @@
   background-color: rgb(28, 28, 194);
   width: 100%;
 }
-
+.bodyserror{
+  color: #fcf6f6;
+  background-color: rgb(28, 28, 194);
+  width: 100%;
+  text-align: center;
+}
+.error{
+  border-radius: 10px;
+  height: 35vh;
+}
 * {
   padding: 0;
   box-sizing: border-box;

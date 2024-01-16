@@ -44,7 +44,7 @@ if (isNaN(edad) || edad < 18){
 
 //Opciones de tratamiento
 let opcion = prompt(
-  "En que especialidad estas interesado:\n-Kinesiología\n-Quiropraxia\n-Osteopatia\n-Suscribirte"
+  "Elija la especialidad en la que esta interesado:\n- 1) Kinesiología\n- 2) Quiropraxia\n- 3) Osteopatia\n- 4) Suscribirte"
 );
 switch (opcion) {
   case "1":

@@ -1,32 +1,28 @@
-//Validacion de Nombre
+//validacion de nombre
 
-let Nombre = prompt("Ingrese su Nombre ");
-let userName = "";
+let nombre = prompt("Ingrese su Nombre");
 
-while (Nombre === userName) {
-  Nombre = prompt("Por favor, ingrese su nombre ");
-  if (Nombre === userName) {
-    alert(
-      "El nombre no puede estar vacio. Por favor, complete el campo requerido"
-    );
-  }
+while (nombre === null || nombre === "") {
+  nombre = prompt("Por favor, ingrese su nombre");
+
+  // Display an alert message if the name is empty
+  alert("El nombre no puede estar vacío. Por favor, complete el campo requerido");
 }
+
+
 // Validacion de Apellido
 
-let Apellido= prompt("Ingrese su Apellido");
-while (Apellido === userName) {
-  Apellido = prompt("Por favor, ingrese su Apellido ");
-  if (Apellido === userName) {
-    alert(
-      "El apellido no puede estar vacio. Por favor, complete el campo requerido"
-    );
-  }
+let apellido = prompt("Ingrese su Apellido");
+
+while (apellido === null || apellido === "") {
+  apellido = prompt("Por favor, ingrese su Apellido");
+  alert("El apellido no puede estar vacío. Por favor, complete el campo requerido");
 }
 // Validacion de edad
 
 let edad =parseInt(prompt("Ingresa tu edad"))
 while (isNaN(edad) || edad < 18 ){
-  let edadString= prompt ("Hola " + Nombre + " Ingresa tu edad:");
+  let edadString=prompt ("Hola " + nombre + " " + apellido + " Ingresa tu edad");
 
 if(!isNaN (edadString)){
 edad = parseInt(edadString);
@@ -40,26 +36,29 @@ if (isNaN(edad) || edad < 18){
 
 }
 }
-;alert("Bienvendo a LrKinesio " + Nombre + " " + Apellido);
+;alert("Bienvendo a LrKinesio " + nombre + " " + apellido);
 
 //Opciones de tratamiento
 let opcion = prompt(
-  "Elija la especialidad en la que esta interesado:\n- 1) Kinesiología\n- 2) Quiropraxia\n- 3) Osteopatia\n- 4) Suscribirte"
+  "Elija la especialidad en la que está interesado:\n- 1) Kinesiología\n- 2) Quiropraxia\n- 3) Osteopatia\n- 4) Suscribirte"
 );
-switch (opcion) {
-  case "1":
-    console.log("elegiste Kinesiología");
-    break;
-  case "2":
-    console.log("elegiste Quiropraxia");
-    break;
-  case "3":
-    console.log("elegiste Osteopatia");
-    break;
-  case "4":
-    console.log("Elegiste Suscribirte");
-    break;
-  default:
-    console.log("Elegiste una opcion no valida");
-}
 
+// Validate if the input is a number between 1 and 4
+if (opcion >= 1 && opcion <= 4) {
+  switch (opcion) {
+    case "1":
+      console.log("Elegiste Kinesiología");
+      break;
+    case "2":
+      console.log("Elegiste Quiropraxia");
+      break;
+    case "3":
+      console.log("Elegiste Osteopatía");
+      break;
+    case "4":
+      console.log("Elegiste Suscribirte");
+      break;
+  }
+} else {
+  console.log("Elegiste una opción no válida");
+}

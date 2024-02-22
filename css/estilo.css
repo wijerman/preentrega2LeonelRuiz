@@ -39,7 +39,7 @@ main .h1 {
   width: 150px;
   height: 35vh;
   border-radius: 15px;
-  animation: rotar 5s linear infinite;
+  animation: rotar 10s linear infinite;
 }
 
 .consutorio:hover {
